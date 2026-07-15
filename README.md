@@ -1,13 +1,8 @@
 <div align="center">
 
-# 🌊 [프로젝트명을 입력하세요]
+# 🌊
 
 ### *실시간 오디오 스펙트럼을 시각적 형태로 번역하는 TouchDesigner 기반 제너레이티브 비주얼*
-
-![TouchDesigner](https://img.shields.io/badge/TouchDesigner-000000?style=for-the-badge&logo=touchdesigner&logoColor=white)
-![CHOP](https://img.shields.io/badge/CHOP-0EA5E9?style=for-the-badge)
-![TOP](https://img.shields.io/badge/TOP-1E3A8A?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-In%20Progress-38BDF8?style=for-the-badge)
 
 </div>
 
