@@ -1,4 +1,4 @@
-# 오디오 - 시각화
+# [프로젝트명을 입력하세요]
 
 실시간 오디오 스펙트럼을 3D 지형 형태로 시각화하는 TouchDesigner 프로젝트입니다.
 
@@ -52,6 +52,38 @@ Render TOP
     ↓
 Out TOP (최종 출력)
 ```
+
+## Key Techniques
+
+- 실시간 오디오 스펙트럼 → 포인트 높이 및 컬러 attribute 생성 (CHOP to SOP)
+- Ramp TOP + Constant MAT 조합만으로 오디오 진폭에 따른 컬러 하모니 구현 (별도 셰이더 없이)
+- Point SOP의 텍스처 좌표(mapv)를 오디오 attribute에 실시간 연동해 색상 매핑
+- Geometry COMP 기반 실시간 지형(terrain) 형태 생성
+
+## How to Run
+
+1. TouchDesigner 2025.x 이상 설치
+2. `project.toe` 파일 열기
+3. Audio Device In CHOP에서 오디오 인풋 디바이스 선택
+4. 상단 Realtime 토글 On
+5. 오디오를 재생하면 실시간으로 반응하는 비주얼 확인 가능
+
+## Screenshots
+
+<table>
+  <tr>
+    <td><img src="media/screenshot_01.png" width="100%"/></td>
+    <td><img src="media/screenshot_02.png" width="100%"/></td>
+  </tr>
+</table>
+
+## Reference
+
+이 프로젝트는 [참고한 유튜브 튜토리얼 제목/채널명]을 참고해 제작했습니다.
+
+## Credits
+
+제작 · 안하영 (Ha-young Ahn)```
 
 ## Key Techniques
 
